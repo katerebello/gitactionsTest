@@ -18,3 +18,14 @@ jobs:
           api-token: ${{ secrets.PYTHONANYWHERE_API_TOKEN }}
           domain-name: ${{ secrets.PYTHONANYWHERE_DOMAIN_NAME }}
 
+
+
+
+      # - name: Log in to Heroku
+      #   uses: akshnz/heroku-login-action@v1
+      #   with:
+      #     heroku_email: ${{ secrets.HEROKU_EMAIL }}
+      #     heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+
+      # - name: Push code to Heroku
+      #   run: git remote add heroku https://git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git && git push heroku main
