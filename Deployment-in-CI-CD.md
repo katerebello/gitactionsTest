@@ -72,7 +72,7 @@ jobs:
           domain-name: ${{ secrets.PYTHONANYWHERE_DOMAIN_NAME }}
 ```
 
-Step 5: Get PythonAnywhere API Tokens
+### Step 5: Get PythonAnywhere API Tokens
 
 1. To use the PythonAnywhere API in your GitHub Actions workflow, you need an **API token**.
 2. **Generate the token**:
